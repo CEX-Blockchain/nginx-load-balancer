@@ -1,0 +1,6 @@
+version: '1'
+services:
+  load-balancer:
+    build: .
+    ports:
+    - "80:80"
